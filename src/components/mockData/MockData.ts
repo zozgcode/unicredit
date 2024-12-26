@@ -186,16 +186,16 @@ export const mockAccounts: Account[] = [
     transaction_history: [
       {
         transaction_id: '001',
-        dateTime: 'December 18 2024',
-        description: 'Incoming wire transfer from insurance payout',
+        dateTime: 'December 18, 2024',
+        description: 'Interest Earned',
         status: 'Success',
-        amount_usd: 950000.0,
-        account_no: '****5009'
+        amount_usd: 50000.0,
+        account_no: '****2930'
       },
       {
         transaction_id: '002',
         dateTime: 'December 15 2024',
-        description: 'Interest Payout',
+        description: 'Interest Earned',
         status: 'Success',
         amount_usd: 50000.0,
         account_no: '****2930'
@@ -203,25 +203,25 @@ export const mockAccounts: Account[] = [
       {
         transaction_id: '003',
         dateTime: 'November 16, 2024',
-        description: 'Interest Payout',
+        description: 'Interest Earned',
         status: 'Success',
         amount_usd: 50000.0,
       },
       {
         transaction_id: '004',
         dateTime: 'October 18, 2024',
-        description: 'Interest Payout',
+        description: 'Interest Earned',
         status: 'Success',
         amount_usd: 50000.0,
         account_no: '****2930'
       },
       {
         transaction_id: '005',
-        dateTime: 'September 15, 2024',
-        description: 'Interest Payout',
+        dateTime: 'September 12 2024',
+        description: 'Incoming wire transfer from insurance payout',
         status: 'Success',
-        amount_usd: 50000.0,
-        account_no: '****2930'
+        amount_usd: 950000.0,
+        account_no: '****5009'
       },
     ]
   }
